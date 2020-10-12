@@ -1,13 +1,13 @@
-package com.amisno.infrazuul;
+package com.amisno.springcloudgateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InfraZuulApplication {
+public class SpringCloudGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(InfraZuulApplication.class, args);
+        SpringApplication.run(SpringCloudGatewayApplication.class, args);
     }
 
 }
