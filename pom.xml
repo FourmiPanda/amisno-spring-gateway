@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.amisno</groupId>
-    <artifactId>infra-zuul</artifactId>
+    <artifactId>spring-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>infra-zuul</name>
-    <description>Zuul project for Spring Boot</description>
+    <name>spring-gateway</name>
+    <description>Spring Cloud Gateway project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
