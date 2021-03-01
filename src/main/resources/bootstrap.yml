@@ -4,3 +4,11 @@ spring:
   cloud:
     config:
       uri: http://amisno-config-server:9101
+
+server:
+  ribbon:
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
+    eureka:
+      enabled: true
+    ServerListRefreshInterval: 1000
